@@ -1,0 +1,93 @@
+[
+    {
+        "courseCode":"MAT 1234", 
+        "courseName":"Calculus I", 
+        "credits":5, 
+        "prereqs":["MAT 1110"], 
+        "terms":["fall" , "winter"]
+    },
+    {
+        "courseCode":"MAT 1235", 
+        "courseName":"Calculus II", 
+        "credits":5, 
+        "prereqs":["MAT 1234"], 
+        "terms":["winter", "spring"]
+    },
+    {
+        "courseCode":"MAT 1236", 
+        "courseName":"Calculus III", 
+        "credits":5, 
+        "prereqs":["MAT 1235"], 
+        "terms":["fall", "spring"]
+    },
+    {
+        "courseCode":"MAT 2360", 
+        "courseName":"Intro to Stats for Sciences", 
+        "credits":5, 
+        "prereqs":["MAT 0145"], 
+        "terms":["fall", "winter", "spring"]
+    },
+    {
+        "courseCode":"MAT 2401", 
+        "courseName":"Linear Algebra", 
+        "credits":3, 
+        "prereqs":["MAT 1235"], 
+        "terms":["fall", "spring"]
+    },
+    {
+        "courseCode":"MAT 2720", 
+        "courseName":"Discrete Mathmatics", 
+        "credits":3, 
+        "prereqs":["MAT 1235"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"MAT 3237", 
+        "courseName":"Differential Equations", 
+        "credits":3, 
+        "prereqs":["MAT 1235"], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"MAT 3238", 
+        "courseName":"Vector Calculus", 
+        "credits":3, 
+        "prereqs":["MAT 1236"], 
+        "terms":["winter", "spring"]
+    },
+    {
+        "courseCode":"MAT 3360", 
+        "courseName":"Probability & Statistics", 
+        "credits":5, 
+        "prereqs":["MAT 1236", "MAT 2360"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"MAT 3749", 
+        "courseName":"Introduction to Analysis", 
+        "credits":5, 
+        "prereqs":["MAT 1236", "MAT 2720"], 
+        "terms":["fall"]
+    },
+    {
+        "courseCode":"MAT 4402", 
+        "courseName":"Modern Algebra I", 
+        "credits":3, 
+        "prereqs":["MAT 2401", "MAT 3749"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"MAT 4403", 
+        "courseName":"Modern Algebra II", 
+        "credits":3, 
+        "prereqs":["MAT 4402"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"MAT 4898", 
+        "courseName":"Senior Capstone Seminar", 
+        "credits":2, 
+        "prereqs":[], 
+        "terms":["fall"]
+    }
+]

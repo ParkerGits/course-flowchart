@@ -1,0 +1,303 @@
+[
+    {
+        "courseCode":"CSC 1230", 
+        "courseName":"Problem Solving & Programming", 
+        "credits":5, 
+        "prereqs":[], 
+        "terms":["fall" , "winter" , "spring"]
+    },
+    {
+        "courseCode":"CSC 2430", 
+        "courseName":"Data Structures I",
+        "credits":5, 
+        "prereqs":["CSC 1230"], 
+        "terms":["winter" , "spring"]
+    },
+    {
+        "courseCode":"CSC 2431", 
+        "courseName":"Data Structures II", 
+        "credits":5, 
+        "prereqs":["CSC 2430"], 
+        "terms":["fall" , "spring"]
+    },
+    {
+        "courseCode":"CSC 3150", 
+        "courseName":"Systems Design", 
+        "credits":5, 
+        "prereqs":["CSC 2330"], 
+        "terms":["fall" , "spring"]
+    },
+    {
+        "courseCode":"CSC 3220", 
+        "courseName":"Applications Programming", 
+        "credits":4, 
+        "prereqs":["CSC 2330"], 
+        "terms":["winter" , "spring"]
+    },
+    {
+        "courseCode":"CSC 3221", 
+        "courseName":"Netcentric Computing", 
+        "credits":4, 
+        "prereqs":["CSC 3220"], 
+        "terms":["fall" , "spring"]
+    },
+    {
+        "courseCode":"CSC 3310", 
+        "courseName":"Concepts in Programming Langs", 
+        "credits":4, 
+        "prereqs":["CSC 2431", "MAT 1720"], 
+        "terms":["fall"]
+    },
+    {
+        "courseCode":"CSC 3350", 
+        "courseName":"Operating Systems Programming", 
+        "credits":3, 
+        "prereqs":["CSC 2431", "CSC 3750"], 
+        "terms":["fall"]
+    },
+    {
+        "courseCode":"CSC 3430", 
+        "courseName":"Algorithms Analysis and Design", 
+        "credits":4, 
+        "prereqs":["MAT 2200", "CSC 2431"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"CSC 4898", 
+        "courseName":"Senior Capstone Seminar", 
+        "credits":2, 
+        "prereqs":["CSC 4152"], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"MAT 1234", 
+        "courseName":"Calculus I", 
+        "credits":5, 
+        "prereqs":[], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"MAT 1235", 
+        "courseName":"Calculus II", 
+        "credits":5, 
+        "prereqs":["MAT 1234"], 
+        "terms":["fall", "spring"]
+    },
+    {
+        "courseCode":"MAT 1236", 
+        "courseName":"Calculus III", 
+        "credits":5, 
+        "prereqs":["MAT 1235"], 
+        "terms":["winter", "spring"]
+    },
+    {
+        "courseCode":"MAT 2200", 
+        "courseName":"Engineering Probability and Statistics", 
+        "credits":3, 
+        "prereqs":["MAT 1235"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"MAT 2360", 
+        "courseName":"Intro to Stats for Sciences", 
+        "credits":5, 
+        "prereqs":["MAT 0145"], 
+        "terms":["fall", "winter", "spring"]
+    },
+    {
+        "courseCode":"MAT 2401", 
+        "courseName":"Linear Algebra", 
+        "credits":3, 
+        "prereqs":["MAT 1235"], 
+        "terms":["fall", "spring"]
+    },
+    {
+        "courseCode":"MAT 3237", 
+        "courseName":"Differential Equations", 
+        "credits":3, 
+        "prereqs":["MAT 1236"], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"BIO 2101", 
+        "courseName":"General Biology", 
+        "credits":5, 
+        "prereqs":["CHM 1211"], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"BIO 2102", 
+        "courseName":"General Biology", 
+        "credits":5, 
+        "prereqs":["BIO 2101"], 
+        "terms":["winter", "spring"]
+    },
+    {
+        "courseCode":"BIO 2103", 
+        "courseName":"General Biology", 
+        "credits":5, 
+        "prereqs":["BIO 2101"], 
+        "terms":["fall", "spring"]
+    },
+    {
+        "courseCode":"CHM 1211", 
+        "courseName":"General Chemistry I", 
+        "credits":5, 
+        "prereqs":["CHM 1100"], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"CHM 1212", 
+        "courseName":"General Chemistry II", 
+        "credits":5, 
+        "prereqs":["CHM 1211"], 
+        "terms":["winter", "spring"]
+    },
+    {
+        "courseCode":"CHM 1213", 
+        "courseName":"General Chemistry III", 
+        "credits":3, 
+        "prereqs":["CHM 1212"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"CHM 2213", 
+        "courseName":"Inorganic Qualitative Analysis", 
+        "credits":2, 
+        "prereqs":["CHM 1213"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"CHM 1310", 
+        "courseName":"Survey of General Chemistry", 
+        "credits":5, 
+        "prereqs":[], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"CHM 1330", 
+        "courseName":"Survey of Organic Chemistry", 
+        "credits":5, 
+        "prereqs":["CHM 1310"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"PHY 1121", 
+        "courseName":"Physics for Sci & Engineering", 
+        "credits":5, 
+        "prereqs":["MAT 1234"], 
+        "terms":["fall"]
+    },
+    {
+        "courseCode":"PHY 1122", 
+        "courseName":"Physics for Sci & Engineering", 
+        "credits":5, 
+        "prereqs":["MAT 1234", "PHY 1121"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"PHY 1123", 
+        "courseName":"Physics for Sci & Engineering", 
+        "credits":5, 
+        "prereqs":["PHY 1122"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"CSC 3750", 
+        "courseName":"Computer Architectr/Organztion", 
+        "credits":5, 
+        "prereqs":["CSC 2330"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"MAT 1720", 
+        "courseName":"Math for Computer Science", 
+        "credits":5, 
+        "prereqs":["MAT 1010"], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"CSC 3760", 
+        "courseName":"Computer Orgnztn & Assem Lang", 
+        "credits":5, 
+        "prereqs":["CSC 2330", "EE 1210"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"EE 1210", 
+        "courseName":"Intro to Logic System Design", 
+        "credits":5, 
+        "prereqs":["CSC 1230"], 
+        "terms":["fall"]
+    },
+    {
+        "courseCode":"MAT 2720", 
+        "courseName":"Discrete Mathematics", 
+        "credits":3, 
+        "prereqs":["MAT 1235"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"CSC 3000", 
+        "courseName":"Principles of Professional Practice", 
+        "credits":1, 
+        "prereqs":[], 
+        "terms":["fall", "winter"]
+    },
+    {
+        "courseCode":"CSC 4151", 
+        "courseName":"Software Engineering I", 
+        "credits":3, 
+        "prereqs":["CSC 3150", "CSC 2431", "CSC 3221"], 
+        "terms":["fall"]
+    },
+    {
+        "courseCode":"CSC 4152", 
+        "courseName":"Software Engineering II", 
+        "credits":3, 
+        "prereqs":["CSC 4151"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"CSC 4941", 
+        "courseName":"CSC Internship Review", 
+        "credits":1, 
+        "prereqs":["CSC 3000"], 
+        "terms":["winter", "spring"]
+    },
+    {
+        "courseCode":"CPE 3280", 
+        "courseName":"Microcontroller System Design ", 
+        "credits":5, 
+        "prereqs":["EE 1210", "CSC 3760"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"CSC 4220", 
+        "courseName":"Cybersecurity Fundamentals", 
+        "credits":3, 
+        "prereqs":["CSC 3221"], 
+        "terms":["winter"]
+    },
+    {
+        "courseCode":"CSC 4750", 
+        "courseName":"Computer Networks", 
+        "credits":5, 
+        "prereqs":["CSC 2431", "MAT 1720"], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"CSC 4800", 
+        "courseName":"A continuation of the Algorithms with Interview practice", 
+        "credits":5, 
+        "prereqs":[], 
+        "terms":["spring"]
+    },
+    {
+        "courseCode":"MAT 3380", 
+        "courseName":"Introduction to Data Science", 
+        "credits":5, 
+        "prereqs":[], 
+        "terms":["fall", "winter"]
+    }
+]

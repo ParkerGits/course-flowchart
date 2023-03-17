@@ -1,0 +1,163 @@
+[
+  {
+    "courseCode": "CSC 1230",
+    "courseName": "Problem Solving & Programming",
+    "credits": 5,
+    "prereqs": [],
+    "terms": ["fall", "winter", "spring"]
+  },
+  {
+    "courseCode": "CSC 2430",
+    "courseName": "Data Structures I",
+    "credits": 5,
+    "prereqs": ["CSC 1230"],
+    "terms": ["winter", "spring"]
+  },
+  {
+    "courseCode": "CSC 2431",
+    "courseName": "Data Structures II",
+    "credits": 5,
+    "prereqs": ["CSC 2430"],
+    "terms": ["fall", "spring"]
+  },
+  {
+    "courseCode": "MAT 1234",
+    "courseName": "Calculus I",
+    "credits": 5,
+    "prereqs": [],
+    "terms": ["fall", "winter"]
+  },
+  {
+    "courseCode": "MAT 1235",
+    "courseName": "Calculus II",
+    "credits": 5,
+    "prereqs": ["MAT 1234"],
+    "terms": ["winter", "spring"]
+  },
+  {
+    "courseCode": "MAT 1236",
+    "courseName": "Calculus III",
+    "credits": 5,
+    "prereqs": ["MAT 1235"],
+    "terms": ["fall", "spring"]
+  },
+  {
+    "courseCode": "MAT 2360",
+    "courseName": "Intro to Stats for Sciences",
+    "credits": 5,
+    "prereqs": [],
+    "terms": ["fall", "winter", "spring"]
+  },
+  {
+    "courseCode": "MAT 2401",
+    "courseName": "Linear Algebra",
+    "credits": 3,
+    "prereqs": ["MAT 1235"],
+    "terms": ["fall", "spring"]
+  },
+  {
+    "courseCode": "MAT 2720",
+    "courseName": "Discrete Mathmatics",
+    "credits": 3,
+    "prereqs": ["MAT 1235"],
+    "terms": ["spring"]
+  },
+  {
+    "courseCode": "MAT 3237",
+    "courseName": "Differential Equations",
+    "credits": 3,
+    "prereqs": ["MAT 1235"],
+    "terms": ["fall", "winter"]
+  },
+  {
+    "courseCode": "MAT 3238",
+    "courseName": "Vector Calculus",
+    "credits": 3,
+    "prereqs": ["MAT 1236"],
+    "terms": ["winter", "spring"]
+  },
+  {
+    "courseCode": "MAT 3360",
+    "courseName": "Probability & Statistics",
+    "credits": 5,
+    "prereqs": ["MAT 1236", "MAT 2360"],
+    "terms": ["winter"]
+  },
+  {
+    "courseCode": "MAT 3730",
+    "courseName": "Complex Variables",
+    "credits": 3,
+    "prereqs": ["MAT 3238"],
+    "terms": ["spring"]
+  },
+  {
+    "courseCode": "MAT 3380",
+    "courseName": "Introduction to Data Science",
+    "credits": 5,
+    "prereqs": ["MAT 2360"],
+    "terms": ["fall", "winter"]
+  },
+  {
+    "courseCode": "MAT 3333",
+    "courseName": "Statistical Modeling",
+    "credits": 5,
+    "prereqs": ["MAT 2360"],
+    "terms": ["spring"]
+  },
+  {
+    "courseCode": "MAT 4363",
+    "courseName": "Mathematical Statistics",
+    "credits": 3,
+    "prereqs": ["MAT 3360"],
+    "terms": ["spring"]
+  },
+  {
+    "courseCode": "CSC 3310",
+    "courseName": "Concepts in Programming Langs",
+    "credits": 4,
+    "prereqs": ["CSC 2431", "MAT 2720"],
+    "terms": ["fall"]
+  },
+  {
+    "courseCode": "CSC 3350",
+    "courseName": "Operating Systems Programming",
+    "credits": 3,
+    "prereqs": ["CSC 2431"],
+    "terms": ["fall"]
+  },
+  {
+    "courseCode": "CSC 3430",
+    "courseName": "Algorithms Analysis and Design",
+    "credits": 4,
+    "prereqs": ["MAT 2360", "CSC 2431", "MAT 2720"],
+    "terms": ["winter"]
+  },
+  {
+    "courseCode": "CSC 3150",
+    "courseName": "Systems Design",
+    "credits": 5,
+    "prereqs": ["CSC 2431"],
+    "terms": ["fall", "spring"]
+  },
+  {
+    "courseCode": "CSC 3220",
+    "courseName": "Applications Programming",
+    "credits": 4,
+    "prereqs": ["CSC 2430"],
+    "terms": ["winter", "spring"]
+  },
+  {
+    "courseCode": "MAT 3899",
+    "courseName": "Mathematical Writing",
+    "credits": 2,
+    "prereqs": [],
+    "terms": ["spring"]
+  },
+  {
+    "courseCode": "MAT 4899",
+    "courseName": "Senior Capstone Seminar",
+    "credits": 3,
+    "prereqs": ["MAT 3899"],
+    "terms": ["fall"]
+  }
+]
